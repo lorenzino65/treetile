@@ -12,7 +12,7 @@
 
 local awful = require("awful")
 local gtable = require("gears.table")
-local treetile = require("treetile")
+local treetile = require(... .. ".treetile")
 
 local k = {
     m = "Mod4",
