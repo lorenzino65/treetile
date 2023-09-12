@@ -38,7 +38,7 @@ local gdebug       = require("gears.debug")
 local gtable       = require("gears.table")
 local naughty      = require("naughty")
 
-local bintree      = require("treetile.bintree")
+local bintree      = require(... .. ".bintree")
 local os           = os
 local math         = math
 local ipairs       = ipairs
